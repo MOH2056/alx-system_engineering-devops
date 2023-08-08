@@ -1,2 +1,2 @@
 #!/bin/bash
--water_and _stir
+perl -lne 'print if $. % 2 ==1'
